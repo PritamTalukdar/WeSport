@@ -2,7 +2,7 @@ import './locations.css';
 
 export const Locations = () => {
   return (
-    <div className="locations-container">
+    <div id='location' className="locations-container">
       <span>
         <b>Our locations</b>
       </span>

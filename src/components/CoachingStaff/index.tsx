@@ -31,7 +31,7 @@ export const CoachingStaff = () => {
       name: 'Bishal Singh',
       role: 'Coach',
       location: 'Guwahati, Assam',
-      description: 'AIFF E License, Assam C Division Player',
+      description: 'AIFF E License, AFC C License, Assam C Division Player',
       imgUrl:
         'https://media.licdn.com/dms/image/D5603AQEMlSFKJg1zdg/profile-displayphoto-shrink_800_800/0/1684987981259?e=1712793600&v=beta&t=05f6MUXTYOJ8NPaiJhCwFY-v8E7IHrd2CIt_-fsESZk',
     },
@@ -39,7 +39,7 @@ export const CoachingStaff = () => {
       name: 'Sahil Ahmed',
       role: 'Coach',
       location: 'Mumbai India',
-      description: 'AIFF E License, Mumbai Youth League Player',
+      description: 'AIFF E License, AFC C License, Mumbai Youth League Player',
       imgUrl:
         'https://d11a6trkgmumsb.cloudfront.net/original/3X/d/8/d8b5d0a738295345ebd8934b859fa1fca1c8c6ad.jpeg',
     },
@@ -53,7 +53,7 @@ export const CoachingStaff = () => {
     },
   ];
   return (
-    <div className="coaching-staff-wrapper">
+    <div id='coaches' className="coaching-staff-wrapper">
       <span>
         <b>Meet our team</b>
       </span>
@@ -61,7 +61,7 @@ export const CoachingStaff = () => {
       <div className="coaching-staff-container">
         {coachingStaffData?.map((item: any) => {
           return (
-            <div className="coaching-staff-item">
+            <div key={item.name} className="coaching-staff-item">
               <img src={item.imgUrl} alt={item.name} />
               <h3>{item.name}</h3>
               <p>{item.role}</p>

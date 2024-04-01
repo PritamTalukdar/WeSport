@@ -1,4 +1,3 @@
-import { ReactPhotoCollage } from 'react-photo-collage';
 import './gallery.css';
 
 interface Setting {
@@ -95,13 +94,13 @@ export const Gallery = () => {
   };
 
   return (
-    <div className="gallery-container">
+    <div id="gallery" className="gallery-container">
       <span>
         <b>Gallery</b>
       </span>
       <div className="gallery-wrapper">
-        {setting.photos.map((ele) => {
-          return <img src={ele?.source} />;
+        {setting.photos.map((ele, index) => {
+          return <img key={index} src={ele?.source} />;
         })}
       </div>
     </div>

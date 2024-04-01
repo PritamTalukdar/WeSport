@@ -1,4 +1,4 @@
-import './ourServices';
+import './ourServices.css';
 
 export const OurServices = () => {
   const Images = {
@@ -10,7 +10,7 @@ export const OurServices = () => {
       'https://t3.ftcdn.net/jpg/03/83/29/84/360_F_383298456_1cJdyK68ECdE7ky2BpOF04z7EQWJTpXK.jpg',
   };
   return (
-    <div className="our-serives-container">
+    <div id='programs' className="our-serives-container">
       <h3>Accessible and Hassle-free</h3>
       <h1>A friendlier sporting experience.</h1>
       <button>Get Started</button>

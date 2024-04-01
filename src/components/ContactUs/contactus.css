@@ -1,0 +1,25 @@
+.contactus-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+.contactus-container > form {
+    background-color: white;
+    color: black;
+    width: 20rem;
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+form > input, textarea {
+    text-decoration: none;
+    border: 2px dashed grey;
+}
+form > button {
+    border: 2px solid grey;
+    background-color: grey;
+    border-radius: 1rem;
+    padding: 0.4rem 2rem;
+}
+

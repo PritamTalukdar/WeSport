@@ -42,7 +42,7 @@ export const Reviews = () => {
       <div className="reviews-container">
         {reviews?.map((el) => {
           return (
-            <div className="item">
+            <div key={el.name} className="item">
               <h3>{`${el.name} says:`}</h3>
               <img src={IMG_URL} alt="fivestar" />
               <p>{el.review}</p>

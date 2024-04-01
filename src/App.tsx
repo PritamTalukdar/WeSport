@@ -8,6 +8,7 @@ import { OurServices } from './components/OurServices';
 import { Reviews } from './components/Reviews';
 import Topbar from './components/Topbar';
 import Welcome from './components/Welcome';
+import ContactUs from './components/ContactUs';
 
 import './style.css';
 
@@ -23,6 +24,7 @@ export const App: FC = () => {
       <Locations />
       <Reviews />
       <CoachingStaff />
+      <ContactUs />
     </>
   );
 };
