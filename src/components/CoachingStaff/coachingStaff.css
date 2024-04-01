@@ -1,0 +1,38 @@
+.coaching-staff-wrapper {
+  background-color: #f2f2f0;
+  padding: 2rem;
+  /* width: 100%; */
+  text-align: center;
+}
+.coaching-staff-wrapper > h1 {
+  color: darkgray;
+  margin: 0.8rem;
+}
+.coaching-staff-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.coaching-staff-item {
+  background-color: white;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  width: 10rem;
+  height: 15rem;
+  text-align: center;
+  margin: 0.4rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  font-size: small;
+}
+.coaching-staff-item > img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
