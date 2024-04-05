@@ -3,7 +3,7 @@ import './contactus.css';
 const ContactUs = () => {
     return (
         <div className="contactus-container">
-            <form name="contact" netlify>
+            <form name="contact" method="POST" data-netlify="true">
                 <label>Name</label><br />
                 <input type="text" name="name" /><br /><br />
 
